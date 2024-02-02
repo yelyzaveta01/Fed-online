@@ -24,6 +24,7 @@ button{
     height: 44px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    border: none;
 }
 .menu-items{
     padding: 0 4px;
@@ -110,6 +111,7 @@ line-height: normal;
     /* text-align: right; */
     /* padding: 0px 0px; */
     margin: 0px 100px;
+    padding: 0px;
     color: #003049;
 
     font-family: Inter;
@@ -125,7 +127,7 @@ line-height: normal;
 .img1-bur{
     width: 60px;
     height: 68.514px;
-    margin: -93px 0px 42.5px 13px;
+    margin: -58px 0px 42.5px 13px;
     /* padding: 0px 10px; */
     /* display: inline-block; */
 
@@ -133,13 +135,13 @@ line-height: normal;
 .img2-bur{
     width: 60.769px;
     height: 55.431px;
-    margin: -85px 0px 42.6px 14.2px; 
+    margin: -96px 0px 6.6px 14.2px; 
     /* display: inline-block; */
 }
 .img3-bur{
     width: 70px;
     height: 60px;
-    margin: -87px 0px 37px 10px
+    margin: -97px 8px -1px 10px;
     /* display: inline-block; */
 }
 /* .burger-img-1{
@@ -148,3 +150,16 @@ line-height: normal;
     padding: 0px 10px;
     display: block;
 } */
+.number{
+    width: 47.6px
+    height: 17px
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D62828;
+margin: -6px 1px;
+
+}
