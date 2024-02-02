@@ -53,31 +53,35 @@ margin: 20px;
 }
 
 .position-absolute-circle{
-    background-color: #FFCE22;
+    /* background-color: #FFCE22; */
     width: 444px;
     height: 444px;
+    position: relative;
+    overflow: hidden;
     
-border-radius: 444px;
+border-radius: 300px;
 background: #FFCE22;
 margin: 32px;
 }
 .blue-img-2{
-    border-radius: 12px;
-    width: 344px;
-    height: 308px;
-    border-radius: 444px;
-    margin: 12px;
+   
     position: absolute;
-    top: 23px;
-    left: 71px;
+    bottom: 195px;
+    left: -16px;
+    
 }
 .glyph-img-2{
-    width: 200px;
-    height: 114px;
+    width: 358.44px;
+    height: 203.74px;
     transform: rotate(-1.89deg);
     flex-shrink: 0;
     padding: 0px;
     position: absolute;
-    top: 311px;
-    left: 161px;
+    bottom: 21px;
+    left: 58px;
+}
+.flag-img{
+    position: absolute;
+    bottom: 200px;
+    left: 247px;
 }
