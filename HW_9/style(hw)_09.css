@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        background-color: #C4C4C4;
+    }
+    .conteiner{
+        width: 1920px;
+        height: 960px;
+        margin: 100px auto;
+        background-color: #C4C4C4;
+        padding: 58px 90px 90px 90px;
+    }
+    .float-title{
+        width: 995px;
+        padding: 7px;
+        margin: 0px;
+        /* border: 2px solid red; */
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .float-content{
+        width: 559px;
+        height: 80px;
+        padding: 4px;
+        margin: -1px;
+        line-height: 40px;
+        /* border: 2px solid black; */
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .conteiner-item{
+        width: 1500px;
+        padding: 6px;
+        margin: -21px;
+        /* border: 2px solid purple; */
+        display: inline-block;  
+    }
+    .conteiner-card1{ 
+        width: 295px;
+        height: 470px;
+        margin: 50px 20px;
+        background-color: white; 
+        padding: 105px 20px 91px 20px;
+        display: inline-block;
+        border-radius: 12px;
+    }
+    .img-photo{
+     width: 114.286px;
+     height: 114.286px;
+    border-radius: 12px;
+    margin: 0px 10px;
+    position: relative;
+    top: -53px;
+    left: 60px;
+    }
+    /* .card{
+        text-align: center;
+    } */
+    .card-name{
+        color: #2D3640;
+        position: relative;
+        top: -33px;
+        left: 78px;
+        font-family: 'Catamaran', sans-serif;
+    }
+    .card-title{
+        color: #2D3640;
+        position: relative;
+        top: -51px;
+        left: 73px;
+        margin: 0px;
+        font-family: 'Catamaran', sans-serif;
+    }
+.img-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: -11px;
+    left: 87px;
+}
+.conteiner-card2{ 
+         width: 295px;
+        height: 470px;
+        margin: 50px 20px;
+        background-color: white; 
+        padding: 6px 17px 85px 19px;
+        display: inline-block;
+    border-radius: 12px;
+}
+.img-photo2{
+    width: 114.286px;
+    height: 114.286px;
+   border-radius: 12px;
+   margin: 0px 10px;
+   position: relative;
+   top: 46px;
+   left: 60px;
+   }
+   .card-name2{
+    color: #2D3640;
+    position: relative;
+    top: 64px;
+    left: 90px;
+    font-family: 'Catamaran', sans-serif;
+}
+.card-title2{
+    color: #2D3640;
+    position: relative;
+    top: 48px;
+    left: 64px;
+    margin: 0px;
+    font-family: 'Catamaran', sans-serif;
+}
+.img-logo2{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: 89px;
+    left: 87px;
+}
+.img-logo-two{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: 39px;
+    left: 25px;
+    /* display: inline-block; */
+}
+.img-logo-three{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: -12px;
+    left: 149px;
+    /* display: inline-block; */
+}
+.conteiner-card3{ 
+    width: 295px;
+   height: 470px;
+   margin: 50px 20px;
+   background-color: white; 
+   padding: 56px 20px 91px 20px;
+   display: inline-block;
+border-radius: 12px;
+}
+.img-photo3{
+width: 114.286px;
+height: 114.286px;
+border-radius: 12px;
+margin: 0px 10px;
+position: relative;
+top: -4px;
+left: 60px;
+}
+.card-name3{
+color: #2D3640;
+position: relative;
+top: 17px;
+left: 84px;
+font-family: 'Catamaran', sans-serif;
+}
+.card-title3{
+color: #2D3640;
+position: relative;
+top: -2px;
+left: 89px;
+margin: 0px;
+font-family: 'Catamaran', sans-serif;
+}
+.img-logo3{
+width: 50px;
+height: 50px;
+margin: 0px 10px;
+position: relative;
+top: 38px;
+left: 60px;
+}
+.img-logo3-two{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: -12px;
+    left: 125px;
+    display: inline-block;
+}
+.conteiner-card4{ 
+    width: 295px;
+   height: 470px;
+   margin: 50px 20px;
+   background-color: white; 
+   padding: 56px 20px 91px 20px;
+   display: inline-block;
+border-radius: 12px;
+}
+.img-photo4{
+width: 114.286px;
+height: 114.286px;
+border-radius: 12px;
+margin: 0px 10px;
+position: relative;
+top: -5px;
+left: 65px;
+}
+.card-name4{
+color: #2D3640;
+position: relative;
+top: 17px;
+left: 77px;
+font-family: 'Catamaran', sans-serif;
+}
+.card-title4{
+color: #2D3640;
+position: relative;
+top: -1px;
+left: 77px;
+margin: 0px;
+font-family: 'Catamaran', sans-serif;
+}
+.img-logo4{
+width: 50px;
+height: 50px;
+margin: 0px 10px;
+position: relative;
+top: 38px;
+left: 63px;
+}
+.img-logo4-two{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    position: relative;
+    top: -12px;
+    left: 129px;
+    display: inline-block;
+}
