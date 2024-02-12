@@ -25,7 +25,6 @@
     }
 .conteiner{
     width: 82%;
-    /* background-color:gray; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -46,19 +45,21 @@ nav a{
     letter-spacing: 1px;
     font-family: 'Nunito Sans', sans-serif;
 } 
-.button{
-background-color:none;
+/* .button{
+background-color: transparent;
 border: none;
-}
+} */
 .content{
     padding: 110px 0px 50px;
+    width: 1600px;
+    margin: 0 auto;
 }
 .photo{
 width: 411px;
 height: 533px;
-/* position: relative;
+position: relative;
 top: 0px;
-left: 0px; */
+left: 94px;
 }
 .conteiner-two{
 display: flex;
@@ -66,9 +67,8 @@ justify-content: space-between;
 }
 .text-conteiner{
 width: 666px;
-/* background-color: grey; */
 position: relative;
-left: -21%;
+left: -16%;
 top: 0px;
 }
 .main-text{
@@ -130,6 +130,11 @@ justify-content: space-between;
 .video{
 display: flex;
 align-items: center;
+/* background-color: #3F9AB7;
+position: relative;
+border-radius: 85px 85px;
+top: 0px;
+left: 0px; */
 }
 .video-title{
 font-size: 18px;
@@ -234,4 +239,18 @@ left: 500px;
     line-height: 120%;
     letter-spacing: 1px;
     font-family: 'Nunito Sans', sans-serif;
+}
+/* .img-search{
+    background-color: transparent;
+    border: none;
+} */
+/* .play-button{
+background-color: #3F9AB7; 
+width: 85px;
+height: 85px;
+border-radius: 12px;
+} */
+.play-button:hover{
+    background-color: #F2994A;
+    display: block;
 }
