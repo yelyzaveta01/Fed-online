@@ -32,12 +32,12 @@
     .conteiner-item{
         width: 1500px;
         padding: 6px;
-        margin: -21px;
+        /* margin: -21px; */
         margin-bottom: 0px;
         /* border: 2px solid purple; */
         display: inline-block;  
     }
-    .conteiner-card1{ 
+    .conteiner-card{ 
         width: 295px;
         height: 470px;
         margin: 50px 20px;
@@ -50,7 +50,7 @@
      width: 114.286px;
      height: 114.286px;
     border-radius: 12px;
-    margin: 0px 10px;
+    margin: 34px 10px;
     position: relative;
     top: -53px;
     left: 60px;
@@ -81,7 +81,7 @@
     top: -11px;
     left: 87px;
 }
-.conteiner-card2{ 
+/* .conteiner-card2{ 
          width: 295px;
         height: 470px;
         margin: 50px 20px;
@@ -89,14 +89,14 @@
         padding: 6px 17px 85px 19px;
         display: inline-block;
     border-radius: 12px;
-}
+} */
 .img-photo2{
     width: 114.286px;
     height: 114.286px;
    border-radius: 12px;
-   margin: 0px 10px;
+   margin: -25px 10px;
    position: relative;
-   top: 46px;
+   top: 6px;
    left: 60px;
    }
    .card-name2{
@@ -140,7 +140,7 @@
     left: 149px;
     /* display: inline-block; */
 }
-.conteiner-card3{ 
+/* .conteiner-card3{ 
     width: 295px;
    height: 470px;
    margin: 50px 20px;
@@ -148,20 +148,20 @@
    padding: 56px 20px 91px 20px;
    display: inline-block;
 border-radius: 12px;
-}
+} */
 .img-photo3{
 width: 114.286px;
 height: 114.286px;
 border-radius: 12px;
 margin: 0px 10px;
 position: relative;
-top: -4px;
+top: -20px;
 left: 60px;
 }
 .card-name3{
 color: #2D3640;
 position: relative;
-top: 17px;
+top: 15px;
 left: 84px;
 font-family: 'Catamaran', sans-serif;
 }
@@ -190,7 +190,7 @@ left: 60px;
     left: 125px;
     display: inline-block;
 }
-.conteiner-card4{ 
+/* .conteiner-card4{ 
     width: 295px;
    height: 470px;
    margin: 50px 20px;
@@ -198,14 +198,14 @@ left: 60px;
    padding: 56px 20px 91px 20px;
    display: inline-block;
 border-radius: 12px;
-}
+} */
 .img-photo4{
 width: 114.286px;
 height: 114.286px;
 border-radius: 12px;
 margin: 0px 10px;
 position: relative;
-top: -5px;
+top: -20px;
 left: 65px;
 }
 .card-name4{
