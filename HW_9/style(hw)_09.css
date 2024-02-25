@@ -32,7 +32,7 @@
     .conteiner-item{
         width: 1500px;
         padding: 6px;
-        /* margin: -21px; */
+        margin: -21px;
         margin-bottom: 0px;
         /* border: 2px solid purple; */
         display: inline-block;  
@@ -45,6 +45,7 @@
         padding: 105px 20px 91px 20px;
         display: inline-block;
         border-radius: 12px;
+
     }
     .img-photo{
      width: 114.286px;
