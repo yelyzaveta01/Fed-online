@@ -227,3 +227,117 @@ body::before{
     position: relative;
     top: -65px;
 }
+/* .br
+.br */
+@media(max-width:900px){
+    .bg-image{
+        width: 430px;
+        height:  1400px;
+    }
+    .logo{
+        width: 156px;
+        height: 48.326px;
+    }
+    .conteiner-main{
+        width: 430px;
+        position: relative;
+        top: 0px;
+        left: 0px;  
+    }
+    .logo{
+        left: 12px;
+        top: 16px;
+        }
+    .date{
+        display: none;
+        }
+    .vector{
+        display: none;
+    }
+    .search{
+        left: 31px;
+        top: 13px;
+    }
+    .ph-avatar{
+        position: relative;
+        top: 20px;
+        left: -16px;
+    }
+    .name-film{
+    position: relative;
+    top: -53px;
+    left: 15px;
+    font-size: 70px;
+    text-align: center;
+    }
+    .title-film{
+        position: relative;
+        top: 246px;
+        font-size: 26px;
+        left: 41px;
+    }
+.info{
+    display: none;
+}
+.description{
+    position: relative;
+    left: 16px;
+    top: 30px;
+    text-align: center;
+    width: 393px;
+    height: 101px;
+    font-size: 19px;
+}
+.star{
+    top: 116px;
+    left: -228px;
+    display: flex;
+    flex-direction: row;
+}
+.play{
+    left: -485px;
+    top: 159px;
+}
+.play-two{
+    left: -439px;
+    top: 159px;
+}
+.popular-title{
+top:  -177px;
+left: 288px;
+font-size: 20px;
+}
+.popular-conteiner{
+top: 387px;
+}
+.forward{
+    top: -47px;
+    left: 306px;
+}
+.forward-two{
+    top: -46px;
+    left: 318px;
+}
+.film-items{
+    position: relative;
+    top: -53px;
+    left: 0;
+}
+.film{
+    display: inline-flex;
+flex-direction: column;
+}
+.film-img{
+display: inline-flex;
+flex-direction: column;
+}
+body::before{
+display: none;
+}
+.red-line{
+    display: none;
+}
+.age{
+    display: none;
+}
+}
