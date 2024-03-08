@@ -1,23 +1,27 @@
 * {
     box-sizing: border-box;
+     margin: 0 auto; 
 }
 .bg-image {
-    width: 1736px;
-    height: 1117px;
+   background-size: cover;
+   max-width:auto ;
     background-image: url(../15/img-Netflix/Rectangle\ 1.png);
 }
 .conteiner-main{
-width: 1600px;
-height: 1006px;
+width: 94.5%; 
+/* height: 100%; */
+margin-right: 35px;
+margin-left: 60px;
+/* height: 1006px; */
 /* background-color: gray;  */
-position: relative;
+/* position: relative;
 top: 77px;
 left: 80px;
-right: 33px;
+right: 33px; */
 }
 .conteiner-upper{
-    width: 100%;
-    margin: 0px auto;
+    position: relative;
+    top: 37px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,26 +34,34 @@ right: 33px;
 width: 156px;
 height: 48.326px;
 position: relative;
-left: 0px;
+left: -146px;
 }
+.vector{
+position: relative;
+top: -46px;
+left: 179px;
+}
+
 .date{
 position: relative;
-left:  -320px;
+left:  -365px;
 }
 .search{
     position: relative;
-    left: 300px;
+    left: 360px;
+}
+.ph-avatar{
+    position: relative;
+    left: 138px;
 }
 /* .br */
 .text-conteiner{
-    width: 100%;
-    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* background-color: white; */
     position: relative;
-    top: 91px;
+    top: 190px;
 }
 .main-text{
     height: 460px;
@@ -74,8 +86,8 @@ font-weight: 800;
 font-style: normal;
 font-size: 64px;
 letter-spacing: 3.52px;
-top: -43px;
-left: -2px;
+top: 11px;
+/* left: -2px; */
 }
 /* .information{
     color: #FFF;
@@ -86,18 +98,22 @@ left: -2px;
     position: relative;
     top: -34px;
 } */
+.info{
+    position: relative;
+    top: 55px;
+}
 .description{
     color: #A7A6A6;
-    width: 573px;
-    height: 82px;
-    /* border-style: dashed;
-    border-color: black; */
+    /* width: 696px; */
+    /* height: 82px; */
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-style: normal;  
-    line-height: 141.523%; 
+    font-style: normal;
+    line-height: 141.523%;
     position: relative;
-    top:  -79px;
+    top: 37px;
+    /* left: -122px; */
+    font-size: 23px;
     
 }
 .star{
@@ -105,7 +121,7 @@ left: -2px;
     border-color: black; */
     width: 1616px;
     position: relative;
-    top: 155px;
+    top: 134px;
     left: -821px;
     color: yellow;
 }
@@ -113,9 +129,9 @@ left: -2px;
     /* width: 306px;
     height: 64px;  */
     position: relative;
-    align-self:flex-end;
-    left: -1263px;
-    top: 18px;
+    /* align-self:flex-end; */
+    left: -1056px;
+    top: 221px;
     /* font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: normal; 
@@ -127,9 +143,9 @@ left: -2px;
     height: px;  */
     position: relative;
     align-self:flex-end;
-    top: 18px;
-    left: -1222px;
-    font-size: 22px;
+    top: 23px;
+    left: -997px;
+    /* font-size: 22px; */
 }
 /* .br */
 .popular-conteiner{
@@ -223,10 +239,7 @@ body::before{
     top: 943px;
     left: 1562px;
 }
-.info{
-    position: relative;
-    top: -65px;
-}
+
 /* .br
 .br */
 @media(max-width:900px){
