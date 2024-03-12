@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../15/img-Netflix/Rectangle\ 1.png);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding-top: 45px;
+  padding-left: 54px;
+  margin-right: -184px;
+}
+.container-all{
+    margin: 0 auto;
+    width: 105%;
+    /* width: auto; */
+    /* background-color: gray; */
+    margin-top: 50px;
+    margin-bottom: -80px;
+}
+header{
+display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  /* background-color: lightcoral; */
+}
+.container-upper{
+    height: 56px;
+}
+.date{
+    left: 175px;
+    top: -45px;
+    position: relative;
+    padding: 0 25px;
+    /* display: flex; */
+    /* align-items: center; */
+    border-left: 3px solid white;
+}
+/* .search{
+    position: relative;
+    top: 0px;
+    left: 0px;
+} */
+.search-container{
+    position: relative;
+    top: -84px;
+    left: 1541px;
+}
+.ph-avatar{
+    position: relative;
+    top: -139px;
+    left: 1589px;
+    margin-left: 45px;
+}
+/* .br */
+.main-contant{
+    max-width: 897px;
+    /* background-color: aquamarine; */
+}
+.movie-iteams{
+display: flex;
+  margin-bottom: 35px;
+}
+.movie-iteams p{
+    border-right: 3px solid white;
+    padding: 0 20px;
+    padding-left: 0;
+    margin-right: 15px;
+    color: #FFF;
+
+font-family: "Inter", sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.name-film{
+    margin-bottom: 30px;
+    color: #FFF;
+
+font-family: "Inter", sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.52px;
+}
+.movie-info{
+display: flex;
+  margin-bottom: 30px;
+  
+}
+.movie-info p{
+border-right: 3px solid white;
+  padding: 0 20px;
+  padding-left: 0;
+  margin-right: 15px;
+  color: #FFF;
+
+font-family: "Inter", sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.movie-info span{
+    color: #A7A6A6;
+font-family: "Inter", sans-serif;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.description{
+    margin-bottom: 30px;
+    color: #A7A6A6;
+
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 141.523%;
+}
+.play-circle{
+    position: relative;
+    top: 16px;
+    left: -102px;
+}
+.container-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 54px;
+    gap: 50px;
+    margin-top: 102px;
+  }
+  .container-button button {
+    width: 272px;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 10px;
+  }
+  button.play{
+ background-color: #d40d1f;
+  border: none;
+  color: #FFF;
+
+font-family: "Inter", sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%;
+  }
+  
+ button.all {
+ background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #FFF;
+
+font-family: "Inter", sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%;
+  }
+
+  .title-popular{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 144.523%; /* 31.795px */
+letter-spacing: 2.97px;
+  }
+  .forward-button {
+    display: flex;
+    gap: 24px;
+  }
+  .left{
+    width: 40px;
+  height: 40px;
+  border: 2px solid #a7a6a6;
+  border-radius: 100%;
+  left: 783px;
+    top: -45px;
+    position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #a7a6a6;
+  }
+  .right{
+    width: 40px;
+  height: 40px;
+  border: 2px solid #a7a6a6;
+  border-radius: 100%;
+  left: 784px;
+  top: -45px;
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #a7a6a6;
+  }
+  /* .br */
+  .container-down{
+    display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-bottom: 49px;
+  /* background-color: bisque; */
+  }
+
+  .age{
+    width: 174px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  bottom: 82px;
+  background-color: #A7A6A6;
+  left: 1652px;
+  position: relative;
+  }
+  .red-block{
+    width: 33px;
+    height: 66px;
+    background-color:#D40D1F;
+  }
+  .img-age{
+    margin-left: 16px;
+  }
