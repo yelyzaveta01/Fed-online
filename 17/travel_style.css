@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  
+    background: url("travel_img/Image.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top 4.5rem right 0;
+}
+header{
+    height: 48px;
+}
+.container-upper{
+    height: 48px;
+    margin-right: 128px;
+    margin-left: 120px;
+}
+.logo-container{
+    border-radius: 5px;
+    border-color: black;
+    width: 94px;
+}
+.logo{
+    font-size: 1.125rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #BC436A;
+    
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    position: relative;
+    top: -41px;
+}
+a{
+    color: #767;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+a:hover{
+    color:#BC436A; 
+}
+.menu-button{
+    margin-top: -6px;
+    margin-left: 2.5rem;
+display: inline-flex;
+padding: 0.5rem;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.25rem;
+background: #386E41;
+color: #FFF;
+border: transparent;
+font-size: 1rem;
+font-weight: 400;
+}
+.menu-button-2{
+    display: none;
+}
+/* .br */
+.main-content{
+    width: 30.865rem;
+    display: flex;
+  justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 12.37rem;
+}
+.title{
+    margin-bottom: 1.44rem;
+    margin-top: 0;
+    color: #333;
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: normal;
+}
+span{
+    color: #BC436A;
+}
+.text{
+    color: #7A7A7A;
+    font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+}
+.main-container::after{
+    content:" " ;
+    width: 7.5rem;
+    height: 7.5rem;
+    position: fixed;
+    border: 10px solid #386E41;
+    left: -35px;
+    bottom: 57px;
+}
+/* .br */
+.will{
+    color: #767676;
+    width: 11.875rem;
+    height: 1.56rem;
+    margin-left: 120px;
+    margin-top: 14.38rem;
+    font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+}
+  .fa-chevron-right{
+    color: #776677;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -36px;
+    left: 10px;
+}
+.all-input{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 0 auto;
+     width: 75rem;
+    height: 6.25rem;
+    border-radius: 8px;
+background: #386E41;
+margin-top: 2.06rem;
+margin-left: 7.5rem; 
+border: none;
+} 
+.title-input{
+    border: none;
+    background: none;
+    color: #FFF;
+    font-size: 1.125rem;
+    width: 15.8125rem;
+    height: 2.0625rem;
+    font-style: normal;
+font-weight: 400;
+} 
+.line{
+    position: relative;
+    top: -26px;
+}
+.button-footer{
+padding: 0.5rem;
+border-radius: 0.25rem;
+background:#BC436A;
+color: #FFF;
+border: transparent;
+width: 9.062rem;
+height: 2.56rem;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+}
+/* .br */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+.destinations{
+    color: #767676;
+    font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+
+}
+.fa-chevron-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:1030px) {
+    body{
+        background-position: top 15.5rem right 0;  
+        background-size: 33.188rem;
+    }
+    header{
+        height: 120px;
+    }
+    
+    .container-upper{
+        height: 61px; 
+        margin-right: 0;
+        margin-left: 0;
+    }
+   
+    .logo{
+        font-size: 2.125rem;
+        display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 32px;  
+    }
+    .menu{
+        justify-content: center;
+        top: -52px;  
+    }
+    a{
+        position: relative;
+        right: 18px;
+        font-size: 1.5rem;
+    }
+    .menu-button{
+    display: none;
+    }
+    .menu-button-2{
+        display: flex;
+    margin-top: -0.9rem;
+    margin-left: 25.5rem;
+    align-items: center;
+    height: 65px;
+    width: 200px;
+    padding: 1.6rem;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: #386E41;
+    color: #FFF;
+    border: transparent;
+    font-size: 1.68rem;
+    font-weight: 400;
+    }
+    /* .br */
+    .main-content{
+        width: 31.90rem;
+        margin-left: 0px;
+        margin-top: 13.37rem;
+      
+    }
+    .title{
+        font-size: 3.25rem; 
+    }
+    .text{
+        margin-top: 12.375rem;
+    font-size: 1.875rem;
+    }
+
+    .main-container::after{
+     
+        display: none;
+    }
+    /* .br */
+    .will{
+        
+        width: 18.875rem;
+        height: 3.56rem;
+        margin-left: 37px;
+        margin-top: 3.38rem;
+        font-size: 1.688rem;
+    
+    }
+      .fa-chevron-right{
+        top: -56px;
+        left: -6px;
+    }
+    
+    .all-input{
+        width: 62rem;
+    height: 5.25rem;
+    margin-top: 4.06rem;
+    margin-left: 0.5rem;
+    } 
+    .title-input{
+    font-size: 1.563rem;
+
+    } 
+    
+    .button-footer{
+    width: 7.062rem;
+    height: 3.188rem;
+    }
+    /* .br */
+   
+    .destinations{
+    font-size: 1.5rem;
+    }
