@@ -140,8 +140,9 @@ font-weight: 400;
     border-radius: 8px;
 background: #386E41;
 margin-top: 2.06rem;
-margin-left: 7.5rem; 
+/* margin-left: 7.5rem;  */
 border: none;
+    float: revert;
 } 
 .title-input{
     border: none;
