@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+
+header{
+    color: #FFF;
+    background-color: #668E68;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand{
+    color: #FFF;
+}
+.nav-link{
+    color: #FFF;
+}
+.top-bg-section{
+    background-image:url(cafe_img/coffee\ 1.png) ;
+    background-position: left;
+    overflow: hidden;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-bg-section h1{
+    font-size: 6.875rem;
+    font-weight: 400;
+}
+.decoration{
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70); 
+    line-height: normal; 
+    font-style: normal;
+    font-family: Shadows Into Light;
+}.menu-txt{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 87%;
+    text-align: center;
+    color: #000;
+}
+.nav-item{
+    margin-right: 52px;
+   
+}
+.head-click{
+    text-decoration: none;
+    color: #FFF;
+}
+.head-click:hover{
+    color: #E58485;
+}
+.div-items-color {
+    border: 9px solid #81613B;
+}
+
+.div-text-absolut {
+    background-color: #FFFFFFCC;
+}
+.div-text-absolut span {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 29.54px;
+}
+.bg-button {
+    background-color: #668E68;
+    width: 160px;
+    height: 40px;
+}
+.fa-solid{
+    color: #FFF;
+    font-size: 20px;
+}
+.second-block{
+    
+    background-image:url(cafe_img/cafe2.png) ;
+    background-position: left;
+    overflow: hidden;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.title, .subtitle {
+    
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: Shadows Into Light;
+}
+.subtitle {
+    font-size: 20px;
+}
+.news {
+    background-color: #81613B33;
+    padding: 80px 0;
+}
+.news-block {
+    border: 1px solid #668E68;
+    gap: 10px;
+    max-width: 1109px;
+   
+    font-weight: 600;
+    line-height: 25.63px;
+    font-family: sans-serif;
+}
+
+footer , .footer-link{
+    font-family: sans-serif;
+    color: #FFF;
+    font-family: sans-serif;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.menu-circle {
+    max-width: 350px;
+}
+
+.div-text-end {
+    text-align: right;
+}
+.button-to-top {
+    width: 32px;
+    height: 32px;
+    background-color: #668E68;
+    bottom: 21px;
+    right: 21px;
+    border: none;
+    opacity: 0.9;
+}
+@media (max-width:640px) {
+    .menu-circle {
+        max-width: 300px;
+    }
+    .footer-row div {
+        text-align: center;
+    }
+    .div-text-end {
+        margin-top: 40px;
+    }
+    
+}
